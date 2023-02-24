@@ -1,0 +1,77 @@
+#navbar{
+    height: 13vh;
+    background-color: #CADD5F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#logo{
+    width: 16%;
+    height: 90%;
+    background-color: white;
+    /* border-radius: 60px; */
+    display: flex;
+    background-image: url(logologo111.jpg);
+    background-position: center;
+    background-size: cover;
+}
+a{
+    color: #364934;
+    text-decoration: none;
+}
+#baritems{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    color:#364934;
+    font-size: 20px;
+
+}
+.navbar-items{
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+}
+.navbar-items li{
+    background: none;
+    outline: none;
+    border-bottom: none;
+    cursor: pointer;
+    /* background-color: rgb(212, 30, 30); */
+
+}
+.navbar-items li::after{
+    content :'';
+    height: 3px;
+    width: 0%;
+    background-color: #364934;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.navbar-items li:hover::after{
+    content :'';
+    height: 3px;
+    width: 100%;
+    background-color: #364934;
+    display: block;
+}
+#logopic{
+    width: 40%;
+    height: 100%;
+    /* background-color: aqua; */
+    /* background-image: url(ll2.png); */
+    background-position: center;
+    background-size: cover;
+}
+#name{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    color:#364934;
+    font-size: 20px;
+}
